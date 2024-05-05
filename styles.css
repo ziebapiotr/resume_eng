@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto Light', Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+  }
+
+.section {
+    max-width: 1300px;
+    word-wrap: break-word;
+  }
+
+  h2 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+/* linia separacyjna miedzy sekcjami, poza pierwszą */
+
+.section:not(:first-child) {
+    border-top: 1px solid #ccc;
+    padding-top:10px;
+    margin-top: 30px;
+    width: 950px;
+  }
+  /* ------ Pierwsza sekcja ze zdjęciem i danymi kontaktowymi --- */
+.header{
+    display: flex;
+  }
+  
+  .main-photo{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+
+  h1.name {
+    margin-top: 20px;
+  }
+  
+  p.address {
+    margin-top: -22px;
+    margin-bottom: 10px;
+    color: grey;
+  }
+
+  .phone, .email, .linkedin, .github {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 3px;
+   
+  }
+
+  .personal-info img{
+    max-width: 14px;
+    max-height: 14px;
+    display: inline;
+    margin-right: 3px;
+  
+  }
+
+  .phone img, .email img, .linkedin img, .github img{
+    position: absolute;
+    margin-left: -22px;
+    padding-top: 3px;
+  }
+  
+
+  .linkedin a{
+    text-decoration: none;
+    color: black;
+  }
+  
+
+  .github a {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* -------------------------------------------------- */
+
+  .technologies ul{
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+    }
+    
+    .technologies li {
+      width: 230px;
+    }
+    
+    h4, p{
+      margin: 1px 0;
+      padding: 0;
+    }
+
+    .unordered-list-of-technologies {
+        /* list-style: none; */
+        padding: 0;
+        padding-left: 20px;
+      }
+      
+      .unordered-list-of-technologies li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+      
+      .unordered-list-of-technologies img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+
+    /* ----------DOŚWIADCZENIE ZAWODOWE ----------- */
+
+.period {
+    color: grey;
+    font-size: 14px;
+  }
+  
+  /* ------------ EDUKACJA ------------------------*/
+  
+  .education ul li span {
+    display: inline-block;
+    width: 650px;
+  }
+    
+  /* -------------  KLAUZULA RODO ---------------- */
+  
+  .clause{
+    font-size: 11px;
+  }
+    
